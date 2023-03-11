@@ -10,7 +10,7 @@
     <style>
       #PT{
       width: 600px;
-      height: 270px;
+      height: 200px;
       }
       #T1{
       position: relative;
@@ -42,14 +42,13 @@
     <div id = "PT">
       <span>
         <b>Abstract.</b> Recommendation systems are used to predict the interests of users through the analysis of historical preferences. Collaborative filteringbased approaches usually ignore the sequential information and sequential recommendation usually focus on the next item prediction. In this work, we would like to determine the next top-k recommendation problem. We propose User Preference Translation Model (UPTM) with item influence embedding and social relations between users. In addition, we will also solve the cold start problem in UPTM.<br>
-        <b>Keywords</b>: Next Top-k Recommendation · Influence Diffusion Embedding · Social Recommendation · Cold-Start Problem.
+        <b>Keywords</b>: Next Top-k Recommendation · Influence Diffusion Embedding · Social Recommendation · Cold-Start Problem.<br>
+        <br>
+        <br>
       </span>
-      <br>
-      <br>
-      <br>
-      <b>Menu</b>
-      <menu>
-        <span style = "left: 50px;">
+      <menu style = "width: 300px;">
+        <b>Menu</b>
+        <span style = "text-align: left;">
           <li><a href = "#T1">1 Introduction</a></li>
           <li><a href = "#T2">2 Related Works</a></li>
         </span>
@@ -75,7 +74,7 @@ friends, family, and followees. Same as the social network, assume an item-item
 network is formed from users’ sequential interaction behavior with item. The
 propagation of item influence can be used to indicate the likelihood of a user
 interacting with a related item based on their interaction with the target item.<br>
-<br>
+          <br>
 &emsp;In sequential recommendation research, we consider the sequential information in users behavior. Given the users’ interaction behavior, the problem can be
 defined as predicting the next item which user will interact. However, we would
 like to recommend the next k items which users will interact in the future. First,
