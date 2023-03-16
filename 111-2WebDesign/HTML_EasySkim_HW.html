@@ -5,24 +5,8 @@
     <meta charset="utf-8">
     <center>
       <H1> User Preference Translation Model for Next Top-k Items Recommendation with Social Relations</H1>
-      Hao-Shang Ma and Jen-Wei Huang<br>
+      Hao-Shang Ma and Jen-Wei Huang<br><br>
     </center>
-    <style>
-      #PT{
-      width: 600px;
-      height: 300px;
-      }
-      #T1{
-      position: relative;
-      margin-top:10px;
-      width: 800px;
-      }
-      #T2{
-      position: relative;
-      margin-top:10px;
-      width: 800px;
-      }
-    </style>
   </header>
   <center>
   <footer>
@@ -38,42 +22,50 @@
   <br>
   <br>
   <body>
-  <center>
-    <div id = "PT">
+  <div style = "margin-left:15%; margin-right: 15%; display: block;">
+    <div>
       <span>
         <b>Abstract.</b> Recommendation systems are used to predict the interests of users through the analysis of historical preferences. Collaborative filteringbased approaches usually ignore the sequential information and sequential recommendation usually focus on the next item prediction. In this work, we would like to determine the next top-k recommendation problem. We propose User Preference Translation Model (UPTM) with item influence embedding and social relations between users. In addition, we will also solve the cold start problem in UPTM.<br>
         <b>Keywords</b>: Next Top-k Recommendation · Influence Diffusion Embedding · Social Recommendation · Cold-Start Problem.<br>
         <br>
         <br>
       </span>
-      <menu style = "width: 200px; height: 100px;">
-        <b>Menu</b>
-        <span style = "text-align: left;">
-          <li><a href = "#T1">1 Introduction</a></li>
-          <li><a href = "#T2">2 Related Works</a></li>
+      <menu>
+        <h2><b style = "text-align: left;">Menu</b></h2>
+        <span style = "text-align: left; font-size:larger;"><font color = "#8b008b">
+          <ul>
+            <li><a href = "#T1">1 Introduction</a></li>
+          </ul>
+          <ul>
+            <li><a href = "#T2">2 Related Works</a></li>
+            <ul>
+              <li><a href = "#t201">2.1 Collaborative Filtering with Deep Neural Network</a></li>
+              <li><a href = "#t202">2.2 Social Recommendation Systems</a></li>
+            </ul>
+          </ul>
+          <ul>
+            <li><a href = "#T3">3 Methodology</a></li>
+            <ul>
+              <li><a href = "#t301">3.1 Problem Definitions</a></li>
+              <li><a href = "#t302">3.2 User Preference Translation Model</a></li>
+              <li><a href = "#t303">3.3 User Preference Translation Model for Social Recommendation</a></li>
+            </ul>
+          </ul>
+          <ul>
+            <li><a href = "#T4">4  Experimental Results and Future works</a></li>
+          </ul>
+          <ul>
+            <li><a href = "#sourse">References</a></li>
+          </ul></font>
         </span>
       </menu>
     </div>
     <div id = "T1">
       <span>
+        <br>
         <h2>1 Introduction</h2>
-&emsp;Recommendation systems are trying to learn the low dimensional representation
-of users and items. Many features can be adopted in recommendation systems,
-for example, user-item interactions, user features, item features, and other information such as the temporal factor.<br>
-&emsp;Collaborative filtering-based approaches focus on learning users’ preference
-and predict the items which users will have interest. The sequential relations in
-users behavior are usually ignored in collaborative filtering. In our opinion, the
-trigger relations between items are important for users behavior. For example,
-people usually watch a series of related movies after they watch one of the
-movie in this series. We would like to discover the target items which can trigger
-users to buy as much related items as possible. Therefore, we adopt the social
-influence propagation concept to model the trigger relations between items. In
-social network, people spread influence to their neighbors and receive influence
-from their neighbors at the same time. People usually be activated by their
-friends, family, and followees. Same as the social network, assume an item-item
-network is formed from users’ sequential interaction behavior with item. The
-propagation of item influence can be used to indicate the likelihood of a user
-interacting with a related item based on their interaction with the target item.<br>
+          Recommendation systems are trying to learn the low dimensional representation of users and items. Many features can be adopted in recommendation systems, for example, user-item interactions, user features, item features, and other information such as the temporal factor.<br>
+          &emsp;Collaborative filtering-based approaches focus on learning users’ preference and predict the items which users will have interest. The sequential relations in users behavior are usually ignored in collaborative filtering. In our opinion, the trigger relations between items are important for users behavior. For example, people usually watch a series of related movies after they watch one of the movie in this series. We would like to discover the target items which can trigger users to buy as much related items as possible. Therefore, we adopt the social influence propagation concept to model the trigger relations between items. In social network, people spread influence to their neighbors and receive influence from their neighbors at the same time. People usually be activated by their friends, family, and followees. Same as the social network, assume an item-item network is formed from users’ sequential interaction behavior with item. The propagation of item influence can be used to indicate the likelihood of a user interacting with a related item based on their interaction with the target item.<br>
           <br>
 &emsp;In sequential recommendation research, we consider the sequential information in users behavior. Given the users’ interaction behavior, the problem can be
 defined as predicting the next item which user will interact. However, we would
@@ -88,28 +80,152 @@ the cold start problem in UPTM.
     </div>
     <div id = "T2">
       <span>
+          <br><br>
         <h2>2 Related Works</h2>
-          <h3>2.1 Collaborative Filtering with Deep Neural Network</h3>
-Collaborative filtering solves the recommendation problem by assuming that
-users with similar behaviors exhibit similar preferences for items. He et al. [2]
-propose NeuMF to combine the multi-layer perceptron and matrix factorization
-to learn the user and item embedding. Wang et al. [4] propose NGCF which is
-based on the graph neural network. They encodes the collaborative signal which
-represents the high-order connectivities by performing embedding propagation.
-Another kind of Generative Adversarial Networks-based methods try to apply
-GAN to recommendation. Chae et al. [1] suggest a new direction of vector-wise
-adversarial training and propose the GAN-based CF framework.<br>
-          <h3>2.2 Social Recommendation Systems</h3>
-On social network, people spread influence to their neighbors and receive influence from their neighbors at the same time. A user is activated by another
-user since they have same opinion tendency. Social recommendation systems
-that examine the propagation of influence among network members end up with
-users who share similar interests connected along diffusion paths. Wu et al. [5]
-propose DiffNet to model the recursive social influence propagation process and
-learn the user and item representation in social recommendation. Zhu et al. [6]
-propose Social Collaborative Mutual Learning Model to combine the item-based
-collaborative filtering and social collaborative filtering.
+          <h3 id = "t201">2.1 Collaborative Filtering with Deep Neural Network</h3>
+            Collaborative filtering solves the recommendation problem by assuming that users with similar behaviors exhibit similar preferences for items. He et al. [2] propose NeuMF to combine the multi-layer perceptron and matrix factorization to learn the user and item embedding. Wang et al. [4] propose NGCF which is based on the graph neural network. They encodes the collaborative signal which represents the high-order connectivities by performing embedding propagation. Another kind of Generative Adversarial Networks-based methods try to apply GAN to recommendation. Chae et al. [1] suggest a new direction of vector-wise adversarial training and propose the GAN-based CF framework.<br>
+          <h3 id = "t202">2.2 Social Recommendation Systems</h3>
+            On social network, people spread influence to their neighbors and receive influence from their neighbors at the same time. A user is activated by another user since they have same opinion tendency. Social recommendation systems that examine the propagation of influence among network members end up with users who share similar interests connected along diffusion paths. Wu et al. [5] propose DiffNet to model the recursive social influence propagation process and learn the user and item representation in social recommendation. Zhu et al. [6] propose Social Collaborative Mutual Learning Model to combine the item-based collaborative filtering and social collaborative filtering.<br>
       </span>
     </div>
-  </center>
+    <div>
+      <span>
+          <br><br>
+        <h2 id = "T3">3 Methodology</h2>
+          <h3 id = "t301">3.1 Problem Definitions</h3>
+            In the current study, recommendations are generated by using previous behavior patterns to predict the items that are likely to interest the user in the future. In the following,<math><mi><i>U</i></mi><mi>={</mi><mi><i>u</mi><sub>1</sub>, <mi>u</mi><sub>2</sub>, ...<mi>u<sub>m</sub></i></mi>}</mi></math> denotes the user set and <math><mi><i>I</i></mi><mi>={</mi><mi><i>i</mi><sub>1</sub>, <mi>i<sub>2</sub></mi>, ..., <mi>i<sub>n</sub></i></mi><mi>} </mi></math> denotes the item set. Each user <i>u</i> has preference record <math><mi>P</mi><sub><i>u</i></sub><mi>=(<i>i</mi><sub>u,1</sub>, <mi>i</mi><sub>u,2</sub>, ...<mi>i</mi><sub>u,t</sub></i>)</math>,where <i>t</i> is the interactive order. Based on a given P<sub><i>u</i></sub> , our objective is to recom-mend the next k items <math><mi>R</mi><sub><i>u</i></sub><mi>={<i>i</mi><sub>u,t+1</sub><mi>,i</mi><sub>t+2</sub><mi>, ..., i</mi><sub>u,t+k</sub><mi></i>}</mi></math> with which user u is likely to interact.
+          <h3 id = "t302">3.2 User Preference Translation Model</h3>
+            The proposed translation-based recommendation model is illustrated in Fig. 1.The model includes a simulation of item embedding and a translation of userpreferences. The proposed scheme is based on the assumption that users are likely to interact with items that are associated with other items that they already possess. We propose using influence diffusion to learn the relationships among items. We first generate item influence diffusion paths from social influence paths sampled from the item-item relation graph from which UPTM learns the item influence embedding by which to encode user preferences. UPTM then learns the parameters in the hidden layer to output the item embedding and generate a recommendation list from the decoder of the translation module, to which is applied a softmax function and top-k sampling.<br>
+            <center>
+              <img src="HTML_BF_t302.png" height = "400px"></br>
+              <b>Fig. 1.</b> The Framwork of User Preference Translation model with Item Influence diffusion Embedding
+            </center>
+          <h3 id = "t303">3.3 User Preference Translation Model for Social Recommendation</h3>
+          We would like to apply UPTM on social recommendation by adding the users’ social relation in the item embeddings. Each user are encoded into a user embedding to represent the user’s social relations in the social network. Then, we add the user embedding into the items to translate the user preference. 
+      </span>
+    </div>
+    <div>
+      <span>
+          <br><br>
+        <h2 id = "T4">4  Experimental Results and Future works</h2>
+          For evaluating the performance of proposed model, we compare UPTM modelwith other existing model on real several datasets such as Movielen, Amazon, and Yahoo datasets. We use the precision, recall and NDCG metrics to evaluatethe performance for UPTM. In table 1, we only show the results of NDCG. Foroverall performance comparison, UPTM outperforms other comparing methodson three metrics for the next k item recommendation problem. All experimentalresults are shown in our UPTM works [3]. In addition, we will propose the UserPreference  Translation  Model  with  social  recommendation.  The  social  recom-mendation  consider  the users’ preference and users’ social relation simultane-ously.<br>
+          <br>
+          <center>
+            <b>Table 1.</b> Overall performance comparison
+            <table border="1">
+              <tr>
+                <td rowspan="2">methods</td>
+                <td colspan="3">Movielens 1M</td>
+                <td colspan="3">Movielens 20M</td>
+                <td colspan="3">Amazon Book</td>
+                <td colspan="3">Yahoo E-commerce</td>
+              </tr>
+              <tr>
+                <td>ND@5</td>
+                <td>ND@10</td>
+                <td>ND@20</td>
+                <td>ND@5</td>
+                <td>ND@10</td>
+                <td>ND@20</td>
+                <td>ND@5</td>
+                <td>ND@10</td>
+                <td>ND@20</td>
+                <td>ND@5</td>
+                <td>ND@10</td>
+                <td>ND@20</td>
+              </tr>
+              <tr>
+                <td>BPR-MF</td>
+                <td>0.086</td>
+                <td>0.0812</td>
+                <td>0.0901</td>
+                <td>0.0786</td>
+                <td>0.0864</td>
+                <td>0.0916</td>
+                <td>0.0118</td>
+                <td>0.0107</td>
+                <td>0.0129</td>
+                <td>0.0138</td>
+                <td>0.0141</td>
+                <td>0.0153</td>
+              </tr>
+              <tr>
+                <td>CFGAN</td>
+                <td>0.1066</td> 
+                <td>0.0962</td> 
+                <td>0.0916</td> 
+                <td>0.0856</td> 
+                <td>0.0986</td> 
+                <td>0.09</td> 
+                <td>0.0166</td> 
+                <td>0.0152</td> 
+                <td>0.0188</td> 
+                <td>0.0152</td> 
+                <td>0.0154</td> 
+                <td>0.0178</td>
+              </tr>
+              <tr>
+                <td>NeuMF</td>
+                <td>0.0945</td>
+                <td>0.1033</td>
+                <td>0.1131</td>
+                <td>0.1193</td>
+                <td>0.1168</td>
+                <td>0.1231</td>
+                <td>0.0135</td>
+                <td>0.0141</td>
+                <td>0.0166</td>
+                <td>0.0144</td>
+                <td>0.0164</td>
+                <td>0.0177</td>
+              </tr>
+              <tr>
+                <td>NGCF</td>
+                <td>0.1168</td>
+                <td>0.1157</td>
+                <td>0.1235</td>
+                <td>0.0931</td>
+                <td>0.0921</td>
+                <td>0.098</td>
+                <td>0.0191</td>
+                <td>0.0176</td>
+                <td>0.0184</td>
+                <td>0.0156</td>
+                <td>0.0187</td>
+                <td>0.0215</td>
+              </tr>
+              <tr>
+                <td>UPTM</td>
+                <td>0.1888</td>
+                <td>0.1996</td>
+                <td>0.1946</td>
+                <td>0.2001</td>
+                <td>0.2185</td>
+                <td>0.2327</td>
+                <td>0.0268</td>
+                <td>0.0283</td>
+                <td>0.0245</td>
+                <td>0.0189</td>
+                <td>0.0201</td>
+                <td>0.0197</td>
+              </tr>
+            </table>
+          </center>
+          <br>
+          However, most sequential recommendation cannot deal the cold start problem since the new items are not shown in the training process. The sequential recommendation usually ignore this problem. In previous recommendation systems, they usually use the popularity of items or the similarity of users’ preference to recommend. We would like use the users’ social relation and give the initial item embedding for cold start items. We will join this idea to solve the cold start problem in UPTM.<br>
+          <br>
+      </span>
+    </div>
+    <div id = "sourse">
+        <br><br>
+      <h2>References</h2>
+      1. D.-K. Chae, J. Kang, J.-S. Kang, S.-W. Kim, J. Lee, and J.-T. Lee. Cfgan: A generic collaborative filtering framework based on generative adversarial networks. In <i>in Proceedings of the 27th ACM CIKM</i>, pages 137 - 146, 2018.<br>
+      2. X. He, L. Liao, H. Zhang, L. Nie, X. Hu, and T.-S. Chua. Neural collaborative filtering. In <i>In Proceedings of WWW</i>, pages 173 - 182, 2017.<br>
+      3. H.-S. Ma and J.-W. Huang. User preference translation model for recommendation system with item influence diffusion embedding. In <i>In Proceedings of IEEE/ACM International Conference on ASONAM</i>, pages 50 - 54, 2020.<br>
+      4. X. Wang, X. He, M. Wang, F. Feng, and T.-S. Chua. Neural graph collaborative filtering. In <i>in Proceedings of the 42nd International ACM SIGIR</i>, pages 165 - 174, 2019.<br>
+      5. L. Wu, P. Sun, Y. Fu, R. Hong, X. Wang, and M. Wang. A neural influence diffusion model for social recommendation. In <i>In Proceedings of the 42nd International ACM SIGIR</i>, pages 235 - 244, 2019.<br>
+      6. T. Zhu, G. Liu, and G. Chen. Social collaborative mutual learning for item recom-mendation. <i>ACM Transactions on Knowledge Discovery from Data</i>, 14, 2020.<br><br>
+    </div>
+  </div>
   </body>
 </html>
