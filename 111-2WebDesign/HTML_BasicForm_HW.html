@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form>
+        <fieldset >
+          <legend>Personal details</legend>
+          <label>Your name:</label> <input name="yourname" size="50"><br>
+          <br>
+          <label>Your email:</label> <input name="yourmail" type="email" pattern=".+@hotmail.com" placeholder="例如123456789@hotmail.com" size="50"><br>
+          <br>
+          <form>
+            <label>Your age:</label>
+            <input type="radio" name="age" value="under"> under 20
+            <input type="radio" name="age" value="twenty"> 20~29
+            <input type="radio" name="age" value="thirty"> 30~39
+            <input type="radio" name="age" value="outof"> out of 40歲
+          </form>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>The questions about the phone</legend>
+          <p>使用過哪些廠牌的手機？
+            <input type="checkbox" name="madecompany" value="htc"> HTC
+            <input type="checkbox" name="madecompany" value="apple"> Apple
+            <input type="checkbox" name="madecompany" value="asus"> Asus
+          </p>
+          
+          <p>使用手機時最常碰到的問題？<br>
+            <textarea name="questiontext"  rows="6"  cols="40"   required> 手機電機時間不夠久</textarea>
+          </p>
+          
+          <p>使用過那些業者的門號？<br>
+            <select name = "userPhoneNum[]" size = "4" multiple>
+              <option value = "中華電信">中華電信
+              <option value = "台灣大哥大">台灣大哥大
+              <option value = "遠傳">遠傳
+              <option value = "台灣之星">台灣之星
+            </select>
+          </p>
+          <br>
+        </fieldset>
+        <input type = "submit" value = "提交">
+        <input type ="reset" value = "重設">
+      </form>
+  </body>
+</html>

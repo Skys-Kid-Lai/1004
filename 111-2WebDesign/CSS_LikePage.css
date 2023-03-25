@@ -1,0 +1,43 @@
+.back{
+	border:2px solid #651170;
+	text-align: center;
+}
+.term{
+	position:fixed;
+	top: 0px;
+}
+.titile{
+	position: relative;
+	margin-top: 25px;
+	width: 1340px;
+}
+.sec{
+	width: 660px;
+}
+.coner{
+	position: absolute;
+	width: 600px;
+	margin-top: 5px;
+}
+.rightAway{
+	position: absolute;
+	width: 600px;
+	left: 700px;
+}
+.pponA{
+	top: 195px;
+}
+.pponB{
+	margin-top: 310px;
+}
+.pponC{
+	top: 420px;
+}
+.sma{
+	position: static;
+	width: 600px;
+	left: 40px;
+}
+.onB{
+	border-bottom: 1px solid #A9A9A9;
+}
