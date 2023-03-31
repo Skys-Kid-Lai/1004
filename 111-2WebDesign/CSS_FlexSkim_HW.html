@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	簡易論文資訊</title>
+	<style type="text/css">
+    	@import url(CSS_FlexSkim.css);
+  	</style>
+</head>
+<body>
+	<div class="back term">
+		Index Terms: Next Top-k Recommendation · Influence Diffusion Embedding · Social Recommendation · Cold-Start Problem
+	</div>
+	<div class="titleImg">
+		<img src="CSS_titleImg.jpg">
+	</div>
+	<h1 class="back titile">
+		User Preference Translation Model for Next Top-k Items Recommendation with Social Relations​
+	</h1>
+
+	<br>
+	<h2 class="back sec">
+		Abstract  Introduction RelatedWorks Methodology Experiment
+	</h2>
+
+	<br>
+	<div class="inLine">
+		<div class="back coner">
+			1nd  Hao-Shang Ma Institute of Computer and Communication Engineer​ Department of Electrical Engineering National Cheng Kung University Tainan, Taiwan ablove904@gmail.com​
+		</div>
+		<div class="back rightAway" >
+			2rd  Jen-Wei Huang​ Department of Electrical Engineering National Cheng Kung University Tainan, Taiwan jwhuang@mail.ncku.edu.tw​
+		</div>
+	</div>
+	
+	<div class="inLine">
+		<div class="inColumn">
+			<div class="back colItm">
+				Abstract. Recommendation systems are used to predict the interests of users through the analysis of historical preferences. Collaborative filtering-based approaches usually ignore the sequential information and sequential recommendation usually focus on the next item prediction. In thiswork, we would like to determine the next top-k recommendation problem. We propose User Preference Translation Model (UPTM) with item in influence embedding and social relations between users. In addition, we will also solve the cold start problem in UPTM.​
+			</div>
+			<div class="back colItm">
+				I.  INTRODUCTION
+			</div>
+			<div class="back colItm">
+				Recommendation systems are trying to learn the low dimen- sional representation of users and items. Many features can be adopted  in  recommendation  systems,  for  example,  user-item interactions, user features, item features, and other information such as the temporal factor.
+			</div>
+			<div class="back colItm">
+				Collaborative  filtering-based  approaches  focus  on  learning users’ preference and predict the items which users will have interest. The sequential relations in users behavior are usually ignored  in  collaborative  filtering.  In  our  opinion,  the  trigger relations between items are important for users behavior. For example, people usually watch a series of related movies after they  watch  one  of  the  movie  in  this  series.  We  would  like to discover the target items which can trigger users to buy as much related items as possible. Therefore, we adopt the social influence  propagation  concept  to  model  the  trigger  relations between  items.  In  social  network,  people  spread  influence  to their  neighbors  and  receive  influence  from  their  neighbors  at the  same  time.  People  usually  be  activated  by  their  friends, family, and followees. Same as the social network, assume an item-item network is formed from users’ sequential interaction behavior with item. The propagation of item influence can be used  to  indicate  the  likelihood  of  a  user  interacting  with  a  related item based on their interaction with the target item.
+			</div>
+		</div>
+		<div class="inColumn">
+			<div class="back colItm">
+				In  sequential  recommendation  research,  we  consider  the sequential  information  in  users  behavior.  Given  the  users’ interaction behavior, the problem can be defined as predicting the  next  item  which  user  will  interact.  However,  we  would like to recommend the next k items which users will interact in  the  future.  First,  we  address  the  recommendation  problem as the next top-k recommendation problem. We propose a User Preference Translation Model with item influence embedding, abbrev.  as  UPTM,  to  solve  this  problem.  In  the  future,  we would  like  to  join  the  social  relations  between  user  and propose the social recommendation with UPTM. In addition, the  cold  start  problem  is  usually  ignored  in  the  sequential recommendation  systems.  We  will  propose  a  new  scheme  to deal with the cold start problem in UPTM.​
+			</div>
+			<div class="back colItm">
+				II.  RELATED WORKS
+			</div>
+			<div class="back colItm">
+				A. Collaborative Filtering with Deep Neural Network
+			</div>
+			<div class="back colItm">
+				Collaborative filtering solves the recommendation problem by assuming that users with similar behaviors exhibit similar preferences for items. He et al. [2] propose NeuMF to combine the  multi-layer  perceptron  and  matrix  factorization  to  learn the user and item embedding. Wang et al. [4] propose NGCF which  is  based  on  the  graph  neural  network.  They  encodes the  collaborative  signal  which  represents  the  high-order  con- nectivities  by  performing  embedding  propagation.  Another kind  of  Generative  Adversarial  Networks-based  methods  try to  apply  GAN  to  recommendation.  Chae  et  al.  [1]  suggest  a new direction of vector-wise adversarial training and propose the GAN-based CF framework.
+			</div>
+			<div class="back colItm">
+				B. Social Recommendation Systems
+			</div>
+			<div class="back colItm">
+				On  social  network,  people  spread  influence  to  their  neigh- bors  and  receive  influence  from  their  neighbors  at  the  same time.  A  user  is  activated  by  another  user  since  they  have same  opinion  tendency.  Social  recommendation  systems  that examine the propagation of influence among network members end up with users who share similar interests connected along diffusion  paths.  Wu  et  al.  [5]  propose  DiffNet  to  model  the recursive  social  influence  propagation  process  and  learn  the  user and item representation in social recommendation. Zhu et
+			</div>
+		</div>
+	</div>
+	
+	<div class="inLine inColumn">
+		<img src="HTML_BF_t302.png" height = "400px"><br>
+		Fig. 1. The Framwork of User Preference Translation model with Item Influence diffusion Embedding
+	</div>
+</body>
+</html>
