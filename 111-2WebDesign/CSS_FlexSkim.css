@@ -1,0 +1,42 @@
+.back{
+	border:1px solid #000000;
+	text-align: center;
+}
+.titleImg{
+	float:right;
+}
+.term{
+	position:fixed;
+	top: 0px;
+}
+h1{
+	position: relative;
+	margin-top: 25px;
+	width: 50%;
+	float:left;
+}
+.sec{
+	width: 50%;
+	float:left;
+}
+.inLine{
+	display: inline-flex;
+	justify-content: space-around;
+}
+.coner{
+	width: 40%;
+	margin-top: 5px;
+	float: left;
+}
+.rightAway{
+	width: 40%;
+	float: right;
+}
+.inColumn{
+	flex-direction: column;
+	width: 40%;
+}
+.colItm{
+	padding: 10px;
+	margin: 10px;
+}
