@@ -7,7 +7,7 @@
 
 # 走廊放一張簡介
 目前格局 -- 大廳、房間、倉庫
-- [前往展示大廳](https://skys-kid-lai.github.io/1004/)
+- [前往展示大廳(https://skys-kid-lai.github.io/1004/)]
 - 房間（還在持續建造中）
   - [程式語言作業們(109-1ProgramLanguage)](109-1ProgramLanguage/)<br>
     從基礎html、CSS到簡易JavaScript，程式碼都有丟去房間裡了！
