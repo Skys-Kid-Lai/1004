@@ -7,7 +7,7 @@
 
 # 走廊放一張簡介
 目前格局 -- 大廳、房間、倉庫
-- [前往展示大廳(https://skys-kid-lai.github.io/1004/)]
+- [展示大廳](https://skys-kid-lai.github.io/1004/)
 - 房間（還在持續建造中）
   - [程式語言作業們(109-1ProgramLanguage)](109-1ProgramLanguage/)<br>
     從基礎html、CSS到簡易JavaScript，程式碼都有丟去房間裡了！
@@ -20,6 +20,6 @@
   - 老鼠洞
     - [程式語言 期中考 -- 美國總統大選首頁](https://maggie-zhuang.github.io/text/homework/hw04.html)
     - [程式語言 期末考 -- COVID-19首頁](https://maggie-zhuang.github.io/text/homework/hw07.html)
-- [倉庫](https://hackmd.io/@AmiYaku1049)<br>
+- [倉庫 -- HackMD](https://hackmd.io/@AmiYaku1049)<br>
   倉庫的東西都有放連結在展示大廳，都可以透過展示大廳到倉庫參觀！<br>
   目前有Arduino實作報告、資料結構Java範例實作以及物件導向C#實作，正在增加前陣子參加的高中職資訊安全題目實作。
