@@ -54,13 +54,8 @@ a:hover{
 }
 
 /* media query */
-@media (min-width: 500px) {
-  .c2, .c3, .c4, .c5 ,.c6{
-    width: 50%;
-  }
-}
 
-@media (min-width: 800px) {
+@media screen and (min-width: 800px) and (max-width:900px){
   .c3 ,.c2{
     width: 35%;
   }
@@ -72,5 +67,11 @@ a:hover{
   }
   .c4{
     width: 30%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width:799px),(orientation: portrait){
+  .c2, .c3, .c4, .c5 ,.c6{
+    width: 50%;
   }
 }
