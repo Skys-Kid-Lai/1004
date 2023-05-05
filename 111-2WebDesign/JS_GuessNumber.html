@@ -23,8 +23,8 @@
             <input type="submit" value="送出" class="guessSubmit">
         </div>
         <div class="resultParas">            
-            <p id="lastResult"></p>
-            <p id="lowOrHi"></p>
+            <p class="lastResult"></p>
+            <p class="lowOrHi"></p>
         </div>
         <script>
             var max=30,min=0;     
@@ -45,22 +45,28 @@
                         {
                             min = userGuess;
                             //alert(min + " ~ " + max); //用在測試
-                            document.getElementById("lastResult").innerHTML = "太小";
-                            document.getElementById("lowOrHi").innerHTML ="結果在： " + min + " ~ " + max + " 之間";
+                            //document.getElementById("lastResult").innerHTML = "太小";
+                            //document.getElementById("lowOrHi").innerHTML ="結果在： " + min + " ~ " + max + " 之間";
+                            document.querySelector(".lastResult").innerHTML = "太小";
+                            document.querySelector(".lowOrHi").innerHTML ="結果在： " + min + " ~ " + max + " 之間";
                        }
                    if (userGuess>flag)
                         {
                             max = userGuess;
                             //alert(min + " ~ " + max);//用在測試
-                            document.getElementById("lastResult").innerHTML = "太大";
-                            document.getElementById("lowOrHi").innerHTML = "結果在： " + min + " ~ " + max + " 之間";
+                            //document.getElementById("lastResult").innerHTML = "太大";
+                            //document.getElementById("lowOrHi").innerHTML = "結果在： " + min + " ~ " + max + " 之間";
+                            document.querySelector(".lastResult").innerHTML = "太大";
+                            document.querySelector(".lowOrHi").innerHTML = "結果在： " + min + " ~ " + max + " 之間";
                         }
                 }
             else
             {
                 //alert("猜中了");//用在測試
-                document.getElementById("lastResult").innerHTML = "猜中了！！";
-                document.getElementById("lowOrHi").innerHTML = "";
+                //document.getElementById("lastResult").innerHTML = "猜中了！！";
+                //document.getElementById("lowOrHi").innerHTML = "";
+                document.querySelector(".lastResult").innerHTML = "猜中了！！";
+                document.querySelector(".lowOrHi").innerHTML = "";
             }
             }              
             guessSubmit.addEventListener('click', checkGuess);
