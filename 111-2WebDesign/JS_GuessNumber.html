@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Number guessing game</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+            body {
+                width: 50%;
+                max-width: 800px;
+                min-width: 480px;
+                margin: 0 auto;
+            }           
+        </style>
+    </head>
+    <body>
+        <h1>這是一個猜數字遊戲</h1>
+        <p>請選擇一個1-30的整數,  系統會顯示你是否猜對, 或者提示你猜的數字比正確答案大或小</p>
+        <div class="form">
+            <label for="guessField">輸入你猜的數字</label>
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" value="送出" class="guessSubmit">
+        </div>
+        <div class="resultParas">            
+            <p id="lastResult"></p>
+            <p id="lowOrHi"></p>
+        </div>
+        <script>
+            var max=30,min=0;     
+            var flag=Math.round(Math.random()*30)+1;//產生一個亂數
+            var guessSubmit = document.querySelector('.guessSubmit'); //取得送出按鈕物件       
+            //取得使用者輸入的數字物件(guessField)
+            //取得顯示結果的物件(lastResult)
+            //取得提示使用者的物件(lowOrHi)
+            function checkGuess() {              
+                var userGuess = Number(guessField.value);//取得使用者輸入的數字值
+                //alert(flag); 
+                //判斷是否為正確答案, 並在顯示結果物件的文字內容顯示是否猜的正確(正確/錯誤)
+                //如果猜的不正確, 判斷如果比正確答案大, 要在使用者提示物件的文字內容顯示, 猜的答案太大了, 反之顯示太小  
+                
+                if (userGuess!=flag)
+                {
+                    if (userGuess<flag)
+                        {
+                            min = userGuess;
+                            //alert(min + " ~ " + max); //用在測試
+                            document.getElementById("lastResult").innerHTML = "太小";
+                            document.getElementById("lowOrHi").innerHTML ="結果在： " + min + " ~ " + max + " 之間";
+                       }
+                   if (userGuess>flag)
+                        {
+                            max = userGuess;
+                            //alert(min + " ~ " + max);//用在測試
+                            document.getElementById("lastResult").innerHTML = "太大";
+                            document.getElementById("lowOrHi").innerHTML = "結果在： " + min + " ~ " + max + " 之間";
+                        }
+                }
+            else
+            {
+                //alert("猜中了");//用在測試
+                document.getElementById("lastResult").innerHTML = "猜中了！！";
+                document.getElementById("lowOrHi").innerHTML = "";
+            }
+            }              
+            guessSubmit.addEventListener('click', checkGuess);
+            </script>
+    </body>    
+</html>
