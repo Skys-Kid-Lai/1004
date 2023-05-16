@@ -1,7 +1,8 @@
 # 房間 -- 網頁程式設計
 施工中，請稍後...<br>
 目前施工進度：書架HTML完工！！<br>
-剩CSS和JavaScript書架還沒標記完
+剩CSS和JavaScript書架也標記完畢！<br>
+只剩下題目註解！！天啊！
 
 # 房間指南
 標籤是該作業主要練習的語言<br>
@@ -34,5 +35,29 @@
   - footer 放作者的連絡資訊
 
 ## CSS
+- [書架裡面的：CSS_EasySkim_HW.html](CSS_EasySkim_HW.html)（繳交期限：March 18, 2023 11:59 PM）<br>
+[前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_EasySkim_HW.html)<br>
+這題沒有做特別好，可能無法當作參考。<br>
+- [書架裡面的：CSS_LikePage_HW.html](CSS_LikePage_HW.html)（繳交期限：March 26, 2023 11:59 PM）<br>
+[前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_LikePage_HW.html)<br>
+題目要求：<br>
+待補<br>
+- [書架裡面的：CSS_FlexSkim_HW.html](CSS_FlexSkim_HW.html)（繳交期限：March 31, 2023 11:59 PM）<br>
+[前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_FlexSkim_HW.html)<br>
+題目要求：<br>
+待補<br>
+- [書架裡面的：CSS_RWD.html](CSS_RWD.html)（繳交期限：April 14, 2023 11:59 PM）<br>
+[前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_RWD.html)<br>
+題目要求：<br>
+設計一個多欄位的網頁,並且完成RWD響應式網頁設計
 
 ## JavaScript
+- [書架裡面的：JS_PrimeNumber.html](JS_PrimeNumber.html)（繳交期限：April 28, 2023 11:59 PM）<br>
+[前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PrimeNumber.html)<br>
+題目要求：<br>
+待補<br>
+- [書架裡面的：JS_GuessNumber.html](JS_GuessNumber.html)（繳交期限：April 28, 2023 11:59 PM）<br>
+[前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_GuessNumber.html)<br>
+題目要求：<br>
+待補<br>
+ - 預計明天(20230517)會多開書架！因為這次老師給的檔案，實在太多了ㅠㅠ是可以獨立多開的程度
