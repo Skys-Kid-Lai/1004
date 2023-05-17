@@ -15,7 +15,7 @@
 
 ## HTML
 
-- 書架裡面的：[書架裡面的：HTML_BasicForm_HW.html](HTML_BasicForm_HW.html) （無需繳交）<br>
+- 書架裡面的：[HTML_BasicForm_HW.html](HTML_BasicForm_HW.html) （無需繳交）<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/HTML_BasicForm_HW.html)<br>
   - 題目要求：<br>
     1.兩個元件分組<br>
