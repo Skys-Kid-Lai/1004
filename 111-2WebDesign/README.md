@@ -17,7 +17,7 @@ CSS和JavaScript書架也標記完畢！<br>
 
 - 書架裡面的：[書架裡面的：HTML_BasicForm_HW.html](HTML_BasicForm_HW.html) （無需繳交）<br>
   [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/HTML_BasicForm_HW.html)
-  <br>題目要求（原題目有附上圖片，之後再放上來 ps.我覺得我的很讚啦（？））：<br>
+  <br>題目要求：<br>
   1.兩個元件分組<br>
   2.文字輸入<br>
   3.電子信箱輸入<br>
