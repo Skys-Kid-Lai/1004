@@ -16,7 +16,7 @@ CSS和JavaScript書架也標記完畢！<br>
 ## HTML
 
 - 書架裡面的：[書架裡面的：HTML_BasicForm_HW.html](HTML_BasicForm_HW.html) （無需繳交）<br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/HTML_BasicForm_HW.html)
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/HTML_BasicForm_HW.html)
   <br>題目要求：<br>
   1.兩個元件分組<br>
   2.文字輸入<br>
@@ -27,7 +27,7 @@ CSS和JavaScript書架也標記完畢！<br>
   7.下拉式選單<br>
 
 - 書架裡面的：[HTML_EasySkim_HW.html](HTML_EasySkim_HW.html)（繳交期限：March 17, 2023 11:59 PM）<br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/HTML_EasySkim_HW.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/HTML_EasySkim_HW.html)<br>
   題目要求：<br>
   請架構一個簡易論文瀏覽的網頁<br>
   包含header、manu、body、footer<br>
@@ -40,27 +40,27 @@ CSS和JavaScript書架也標記完畢！<br>
 - 書架裡面的：[CSS_EasySkim_HW.html](CSS_EasySkim_HW.html)（繳交期限：March 18, 2023 11:59 PM）<br>
   對應css文件：[CSS_EasySkim.css](CSS_EasySkim.css)<br>
   <br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_EasySkim_HW.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_EasySkim_HW.html)<br>
   這題沒有做特別好，可能無法當作參考。<br>
   
 - 書架裡面的：[CSS_LikePage_HW.html](CSS_LikePage_HW.html)（繳交期限：March 26, 2023 11:59 PM）<br>
   對應css文件：[CSS_LikePage.css](CSS_LikePage.css)<br>
   <br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_LikePage_HW.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_LikePage_HW.html)<br>
   題目要求：<br>
   - 待補<br>
   
 - 書架裡面的：[CSS_FlexSkim_HW.html](CSS_FlexSkim_HW.html)（繳交期限：March 31, 2023 11:59 PM）<br>
   對應css文件：[CSS_FlexSkim.css](CSS_FlexSkim.css)<br>
   <br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_FlexSkim_HW.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_FlexSkim_HW.html)<br>
   題目要求：<br>
   - 待補<br>
   
 - 書架裡面的：[CSS_RWD.html](CSS_RWD.html)（繳交期限：April 14, 2023 11:59 PM）<br>
   對應css文件：[CSS_RWD.css](CSS_RWD.css)<br>
   <br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_RWD.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_RWD.html)<br>
   題目要求：<br>
   - 設計一個多欄位的網頁,並且完成RWD響應式網頁設計
 
@@ -68,12 +68,12 @@ CSS和JavaScript書架也標記完畢！<br>
 - 書架裡面的：[JS_PrimeNumber.html](JS_PrimeNumber.html)（繳交期限：April 28, 2023 11:59 PM）<br>
   對應js文件：[JS_PrimeNumber.css](JS_PrimeNumber.css)<br>
   <br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PrimeNumber.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PrimeNumber.html)<br>
   題目要求：<br>
   - 待補<br>
   
 - 書架裡面的：[JS_GuessNumber.html](JS_GuessNumber.html)（繳交期限：May 05, 2023 11:59 PM）<br>
-  [前往成果](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_GuessNumber.html)<br>
+  大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_GuessNumber.html)<br>
   題目要求：<br>
   - 待補<br>
   
