@@ -72,7 +72,7 @@
   - 題目要求：<br>
     - 待補<br>
   
-- 書架裡面的：[JS_PaperScissorStone.html](JS_PaperScissorStone.html)（繳交期限：May 05, 2023 11:59 PM）<br>
+- 書架裡面的：[JS_PaperScissorStone.html](JS_PaperScissorStone.html)（繳交期限：May 19, 2023 11:59 PM）<br>
   對應js文件：[JS_PaperScissorStone.js](JS_PaperScissorStone.js)<br>
   對應css文件：[JS_PaperScissorStone.css](JS_PaperScissorStone.css)<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PaperScissorStone.html)<br>
