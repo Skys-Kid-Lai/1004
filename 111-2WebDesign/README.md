@@ -62,7 +62,7 @@
 
 ## JavaScript
 - 書架裡面的：[JS_PrimeNumber.html](JS_PrimeNumber.html)（繳交期限：April 28, 2023 11:59 PM）<br>
-  對應js文件：[JS_PrimeNumber.css](JS_PrimeNumber.css)<br>
+  對應js文件：[JS_PrimeNumber.js](JS_PrimeNumber.js)<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PrimeNumber.html)<br>
   - 題目要求：<br>
     - 待補<br>
@@ -72,4 +72,13 @@
   - 題目要求：<br>
     - 待補<br>
   
-- 預計明天(20230518)會多開書架夾層！因為這次老師給的檔案實在太多了ㅠㅠ是可以獨立多開的程度
+- 書架裡面的：[JS_PaperScissorStone.html](JS_PaperScissorStone.html)（繳交期限：May 05, 2023 11:59 PM）<br>
+  對應js文件：[JS_PaperScissorStone.js](JS_PaperScissorStone.js)<br>
+  對應css文件：[JS_PaperScissorStone.css](JS_PaperScissorStone.css)<br>
+  - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PaperScissorStone.html)<br>
+  - 題目要求：<br>
+    - 填補js檔設計，完成猜拳遊戲<br>
+    - 滑鼠點擊圖片選項，由電腦出拳，並判斷輸贏。<br>
+  - 加分項目：<br>
+    - 製作button（css原檔裡面有建立button的設計）<br>
+    - 累計玩家贏的次數<br>
