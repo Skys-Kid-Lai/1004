@@ -82,9 +82,8 @@
     - 填補js檔設計，完成猜拳遊戲<br>
     - 滑鼠點擊圖片選項，由電腦出拳，並判斷輸贏。<br>
   - 加分項目：<br>
-    - 製作button（css原檔裡面有建立button的設計）<br>
+    - 製作 again button（css原檔裡面有建立button設計）<br>
     - 累計玩家贏的次數<br>
-    - 
   
 ## PHP
 - 書架裡面的：[PHP_Primenumber.php](PHP_Primenumber.php)（繳交期限：May 19, 2023 11:59 PM）<br>
