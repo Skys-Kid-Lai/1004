@@ -79,7 +79,11 @@
   對應js文件：[JS_PrimeNumber.js](JS_PrimeNumber.js)<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_PrimeNumber.html)<br>
   - 題目要求：<br>
-    - 待補<br>
+    - 建立一個基本html，寫一個外部javascript並載入html<br>
+    - javascript功能：
+      - ```var number = prompt("請輸入正整數：","");```
+      - 找出小於輸入的正整數內所有的質數<br>
+      - 將結果存在一個陣列中，並用alaert()呈現在網頁上：```array.push(number);```
   
 - 書架裡面的：[JS_GuessNumber.html](JS_GuessNumber.html)（繳交期限：May 05, 2023 11:59 PM）<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_GuessNumber.html)<br>
