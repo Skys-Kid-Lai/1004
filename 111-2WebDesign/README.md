@@ -10,7 +10,7 @@
 目前有：
 - [HTML](#html)<br>
 - [CSS](#css)<br>
-- [JavaScipt](#javascript)<br>
+- [JavaScript](#javascript)<br>
 - [PHP](#php)<br>
 
 書目會標註題目要求、加分項目等等。<br>
