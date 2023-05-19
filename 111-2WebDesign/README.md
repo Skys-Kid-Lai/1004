@@ -88,7 +88,9 @@
 - 書架裡面的：[JS_GuessNumber.html](JS_GuessNumber.html)（繳交期限：May 05, 2023 11:59 PM）<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/JS_GuessNumber.html)<br>
   - 題目要求：<br>
-    - 待補<br>
+    - 完成一個猜數字遊戲（1～30）<br>
+    - 用JavaSrcipt獲得使用者輸入的數字並判斷是否為正確答案<br>
+    - 正確與否在結果顯示區域顯示，並提示使用者輸入的數字比正確答案大或小<br>
   
 - 書架裡面的：[JS_PaperScissorStone.html](JS_PaperScissorStone.html)（繳交期限：May 19, 2023 11:59 PM）<br>
   對應js文件：[JS_PaperScissorStone.js](JS_PaperScissorStone.js)<br>
