@@ -50,13 +50,23 @@
   對應css文件：[CSS_LikePage.css](CSS_LikePage.css)<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_LikePage_HW.html)<br>
   - 題目要求：<br>
-    - 待補<br>
+    - 在你的頁面內顯示一張紙的容器，這個不用這框限，大小可以自行設定（類似文章的翻頁效果）<br>
+    - 每一個框線都是一個box，每個box的大小和排版位置盡量要和規定的樣式接近，邊界留白等可自行調整，每個box都要設定框限，框限粗度可自行設定<br>
+    - Index Terms 做絕對定位（fixed）在最上面<br>
+    - 表格用css重新製作<br>
+  -這裡要打一下心得：<br>
+    - 我真的沒有看懂第一項題目要求，所以不要問我。我有問過老師了，可惜的是老師好像就真的是要說這些，我去問的時候，不停重複這段給我（老師辛苦了，我一定很難搞）。<br>
   
 - 書架裡面的：[CSS_FlexSkim_HW.html](CSS_FlexSkim_HW.html)（繳交期限：March 31, 2023 11:59 PM）<br>
   對應css文件：[CSS_FlexSkim.css](CSS_FlexSkim.css)<br>
   - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/CSS_FlexSkim_HW.html)<br>
   - 題目要求：<br>
-    - 待補<br>
+    - 運用CSS Flex Box Layout重新定位論文瀏覽網頁架構<br>
+    - 每一個框都是box，每個box的大小喊排版位置盡量要和規定的樣式接近，每個box都要設定框限，框限粗度自行設定<br>
+    - 一張紙大小代表你的最外層父元素Box的大小，這個不用設框線<br>
+    - Index Terms做絕對定位在最上面<br>
+  - 這裡要打一下心得：<br>
+    - 又是一張紙，我那時候真的很...不知道該做什麼，於是就...對，當作我沒看過那一項。<br>
   
 - 書架裡面的：[CSS_RWD.html](CSS_RWD.html)（繳交期限：April 14, 2023 11:59 PM）<br>
   對應css文件：[CSS_RWD.css](CSS_RWD.css)<br>
