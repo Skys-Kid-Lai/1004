@@ -87,7 +87,7 @@
   
 ## PHP
 - 書架裡面的：[PHP_Primenumber.php](PHP_Primenumber.php)（繳交期限：May 19, 2023 11:59 PM）<br>
-  - 大廳傳送門：[實際頁面](https://skys-kid-lai.github.io/1004/111-2WebDesign/PHP_Primenumber.php)<br>
+  - 大廳傳送門：[Download php file](https://skys-kid-lai.github.io/1004/111-2WebDesign/PHP_Primenumber.php)<br>
   - 題目要求：<br>
     - 電腦亂數決定數值<br>
     - 取出質數<br>
