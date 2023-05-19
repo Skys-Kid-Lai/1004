@@ -11,7 +11,7 @@
 - [HTML](#html)<br>
 - [CSS](#css)<br>
 - [JavaScipt](#javascript)<br>
-- [PHP](#PHP)<BR>
+- [PHP](#php)<br>
 
 書目會標註題目要求、加分項目等等。<br>
 書架文件是Only Code，可以從大廳傳送門前往實際網頁。<br>
