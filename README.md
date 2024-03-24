@@ -22,4 +22,4 @@
     - [程式語言 期末考 -- COVID-19首頁](https://maggie-zhuang.github.io/text/homework/hw07.html)
 - [倉庫 -- HackMD](https://hackmd.io/@AmiYaku1049)<br>
   倉庫的東西都有放連結在展示大廳，都可以透過展示大廳到倉庫參觀！<br>
-  目前有Arduino實作報告、資料結構Java範例實作以及物件導向C#實作，正在增加前陣子參加的高中職資訊安全題目實作。
+  目前有Arduino實作報告、資料結構Java範例實作以及物件導向C#實作，也新增了高中職資訊安全題目的部分實作。
